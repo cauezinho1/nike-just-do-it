@@ -2,6 +2,8 @@
     --white: #fff;
     --black: #000;
     --red: #f00;
+    --gray: rgb(148, 146, 146);
+    --gray-light: rgb(199, 199, 199);
 }
 
 * {
@@ -83,5 +85,58 @@ width: 19%;
 .content-banner button:hover {
     background-color: var(--white);
     color: var(--red);
+    transition: 0.5s; 
+}
+
+/*PRODUTOS*/
+
+.destaques {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.destaques h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin: 25px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--black);
+}
+.destaques span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 25px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--red);
+    cursor: pointer;
+}
+ 
+.wrappers {
+    margin-top: 20%;
+    border: 1px solid var(--gray-light);
+    border-radius: 5px;
+    padding: 10px;
+    background: linear-gradient(to bottom, var(--white)60%, var(--gray) );
+}
+.wrappers p {
+    color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrappers button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.wrappers button:hover {
+    background-color: var(--black);
+    color: var(--white);
     transition: 0.5s; 
 }
