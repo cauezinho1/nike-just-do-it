@@ -115,7 +115,6 @@ width: 19%;
 }
  
 .wrappers {
-    margin-top: 20%;
     border: 1px solid var(--gray-light);
     border-radius: 5px;
     padding: 10px;
