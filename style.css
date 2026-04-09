@@ -45,3 +45,43 @@
     display: flex;
     gap: 20px;
 }
+
+/*BANNER*/
+
+.banner {
+    background-image: url('img/banner-principal.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+.content-banner {
+margin-right: auto;
+margin-bottom: 10%;
+width: 19%;
+}
+.content-banner h1 {
+    font-size: 100px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+.content-banner p {
+    font-size: 20px;
+    color: var(--white);
+    margin: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-banner button {
+    padding: 10px 20px;
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content-banner button:hover {
+    background-color: var(--white);
+    color: var(--red);
+    transition: 0.5s; 
+}
