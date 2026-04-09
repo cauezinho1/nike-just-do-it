@@ -115,11 +115,11 @@ width: 19%;
 }
  
 .wrappers {
-    margin-top: 20%;
     border: 1px solid var(--gray-light);
     border-radius: 5px;
     padding: 10px;
     background: linear-gradient(to bottom, var(--white)60%, var(--gray) );
+    margin-bottom: 25px;
 }
 .wrappers p {
     color: var(--black);
@@ -139,3 +139,48 @@ width: 19%;
     color: var(--white);
     transition: 0.5s; 
 }
+
+/*OFERTAS*/
+
+.ofertas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 79%;
+    margin: auto;
+    border: 1px solid var(--gray-light);
+    border-radius: 5px;
+    background: linear-gradient(to right, var(--black)50%, var(--red) );
+}
+.ofertas p {
+    color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 10px;
+    margin-top:5px;
+}
+.ofertas span {
+    color: var(--red);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.ofertas button {
+    padding: 5px 10px;
+    background-color: var(--white);
+    color: var(--red);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 19px;
+    margin-top:5px;
+}
+.ofertas button:hover {
+    background-color: var(--red);
+    color: var(--white);
+    transition: 0.5s; 
+}
+
